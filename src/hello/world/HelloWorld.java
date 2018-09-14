@@ -19,6 +19,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc=new Scanner(System.in);
+        System.out.print ("Please input your name:");
         String name; 
         name=sc.next();
         System.out.println("Hello World"+name+"!");
